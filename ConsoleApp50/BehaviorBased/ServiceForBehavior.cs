@@ -41,5 +41,8 @@ namespace ConsoleApp50.BehaviorBased
         {
             return _repository.ExistsAsync(id);
         }
+
+        internal string GetInternal() => "internal";
+
     }
 }
